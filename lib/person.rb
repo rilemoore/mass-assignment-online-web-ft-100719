@@ -4,7 +4,7 @@ class Person
   
   def initialize(attribute_hash)
     attribute_hash.each do |hash_member|
-            
+      self.send("")      
     end
   end
 end
